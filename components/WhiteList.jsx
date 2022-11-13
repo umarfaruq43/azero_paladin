@@ -100,6 +100,7 @@ const WhiteList = () => {
                         <Button
                             onClick={handleSubmit}
                             bgColor="brand.cyan"
+			    fontSize={['12px', null, "16px"]}
                             _active={{
                                 bgColor: "brand.cyan",
                             }}
