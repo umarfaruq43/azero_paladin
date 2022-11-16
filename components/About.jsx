@@ -17,14 +17,14 @@ import ScreenSize from "../Layout/ScreenSize";
 export default function About() {
     return (
         <ScreenSize maxW={"5xl"} py={12}>
-            <Flex gap={10} flexDir={["column", null, "row"]} id="about">
+            <Flex gap={10} mb="64px" flexDir={["column", null, "row"]} id="about">
                 <Flex w={["100%", null, "50%"]} justify="center">
                     <Image
                         rounded={"md"}
                         alt={"feature image"}
                         src="/About.jpeg"
                         objectFit={"cover"}
-                        // maxH="450px"
+                        maxH="450px"
                     />
                 </Flex>
                 <Stack spacing={4} w={["100%", null, "50%"]} pt="30px">
@@ -66,6 +66,29 @@ export default function About() {
                         $AZERO coin used to mint AzeroPaladin NFT’s as airdrop
                         of $AzeroPaladin token into their wallets.
                     </Text>
+                </Stack>
+            </Flex>
+
+            {/* Col two  */}
+            <Flex gap={10} mt="64px" flexDir={["column", null, "row-reverse"]} >
+                <Flex w={["100%", null, "50%"]} justify="center">
+                    <Image
+                        rounded={"md"}
+                        alt={"feature image"}
+                        src="/About2.jpeg"
+                        objectFit={"cover"}
+                        maxH="550px"
+                    />
+                </Flex>
+                <Stack spacing={4} w={["100%", null, "50%"]} pt="30px">
+                    <Heading fontSize={["24px", null, "32px"]}>
+                        A WEB 3
+                        <Text as="span" color="brand.cyan">
+                            {" "}
+                            LOTTERY PLATFORM
+                        </Text>{" "}
+                        IS COMING AND YOU {`CAN'T`} STOP IT!
+                    </Heading>
                     <Text fontSize={"sm"} color={"brand.dimWhite"}>
                         🔥 The first 100% Revenue Sharing Lottery and Coin-Flip
                         Web 3 platform on @alephzero_io! All is fair and

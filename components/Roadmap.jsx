@@ -130,9 +130,9 @@ export default function Roadmap() {
                 />{" "}
                 <Feature
                     icon={<Icon as={SiProgress} w={10} h={10} />}
-                    title={" AZEROPALADIN World Casino"}
+                    title={" AZEROPALADIN World Lottery"}
                     text={
-                        "Opening of our first AZEROPALADIN World metaverse Casino."
+                        "Opening of our first AZEROPALADIN World metaverse Lottery."
                     }
                 />{" "}
             </SimpleGrid>
