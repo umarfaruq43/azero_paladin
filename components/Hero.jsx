@@ -63,12 +63,11 @@ export default function Hero() {
                                 fontSize={{ base: "2xl", sm: "4xl", md: "5xl" }}
                                 lineHeight={"110%"}
                             >
-                                Join {" "}
+                                Come celebrate the paladins of{" "}
                                 <Text as="span" color="brand.cyan">
-                                    AzeroPaladin NFT
+                                    alephzero
                                 </Text>{" "}
-                      and come celebrate the legends
-                                of AlephZero with us!!{" "}
+                                with us and make passive income in Web3 Lottery{" "}
                             </Heading>
 
                             <Button
