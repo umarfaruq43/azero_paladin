@@ -6,7 +6,7 @@ import ScreenSize from "../Layout/ScreenSize";
 
 const Join = () => {
     return (
-        <Box bgImage="/footer.png" py="64px">
+        <Box  py="64px">
             <ScreenSize>
                 <Box textAlign="center">
                     <Text fontSize={["22px", null, "52px"]} fontWeight="900">

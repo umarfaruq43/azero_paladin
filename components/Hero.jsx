@@ -17,7 +17,7 @@ import Scroll from "./Scroll";
 
 export default function Hero() {
     return (
-        <Box >
+        <Box>
             <Box
                 bgImage="/banner_bg.jpg"
                 bgPos="center"
@@ -60,14 +60,15 @@ export default function Hero() {
                             <Heading
                                 className="highZ"
                                 fontWeight={600}
-                                fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
+                                fontSize={{ base: "2xl", sm: "4xl", md: "5xl" }}
                                 lineHeight={"110%"}
                             >
-                                Join Future Of{" "}
+                                Join {" "}
                                 <Text as="span" color="brand.cyan">
                                     AzeroPaladin NFT
                                 </Text>{" "}
-                                Trading Strategies
+                      and come celebrate the legends
+                                of AlephZero with us!!{" "}
                             </Heading>
 
                             <Button
@@ -89,8 +90,8 @@ export default function Hero() {
                                 borderColor="brand.cyan"
                                 fontWeight="400"
                                 fontSize="16px"
-				as="a"
-				href="#whitelist"
+                                as="a"
+                                href="#whitelist"
                             >
                                 Check WL
                             </Button>
