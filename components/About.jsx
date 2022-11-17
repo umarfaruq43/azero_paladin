@@ -55,7 +55,7 @@ export default function About() {
                     </Heading>
                     <Text color={"brand.dimWhite"} fontSize={"sm"}>
                         AzeroPaladin NFT’s a collection of all brains behind
-                        AlephZero blockchain, immortalised within our #NFTs.
+                        AlephZero blockchain, this legends will be forever immortalised within our #NFTs collections.
                     </Text>
                     <Text color={"brand.dimWhite"} fontSize={"sm"}>
                         Created out of appreciation, these Paladins will now
