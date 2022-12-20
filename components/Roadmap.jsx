@@ -41,7 +41,7 @@ const Feature = ({ title, text, icon }) => {
 export default function Roadmap() {
     return (
         <ScreenSize p={4} py="84px">
-            <Box mb="30px"  id="roadmap">
+            <Box mb="30px" id="roadmap">
                 <Flex align="center" justify={"center"} mb="20px">
                     <Text
                         w="10px"
@@ -78,7 +78,7 @@ export default function Roadmap() {
             <SimpleGrid columns={{ base: 1, sm: 2, md: 3 }} spacing={10}>
                 <Feature
                     icon={<Icon as={SiProgress} w={10} h={10} />}
-                    title={"Strong community"}
+                    title={"Build a strong community"}
                     text={
                         "Our first mission is to build a strong AZEROPALADIN Community."
                     }
@@ -102,39 +102,40 @@ export default function Roadmap() {
                 />{" "}
                 <Feature
                     icon={<Icon as={SiProgress} w={10} h={10} />}
-                    title={"  AZEROPALADIN Token "}
+                    title={"  AZEROPALADIN TOKEN IDO & Airdrop"}
                     text={
-                        "Airdrop of AZEROPALADIN token to all AZEROPALADIN NFT holders."
+                        "Conduct a TOKEN IDO sale on a Launchpad & Airdrop of AZEROPALADIN token to all AZEROPALADIN NFT holders."
                     }
                 />{" "}
                 <Feature
                     icon={<Icon as={SiProgress} w={10} h={10} />}
-                    title={" AZEROPALADIN DEX LISTING "}
+                    title={" AZEROPALADIN TOKEN DEX LISTING "}
+                    text={"Listing of AzeroPaladin Token ($AZP) on a DEX."}
+                />{" "}
+                <Feature
+                    icon={<Icon as={SiProgress} w={10} h={10} />}
+                    title={" SuperCharged Staking"}
                     text={
-                        "Use 20% $AZERO from the AZEROPALADIN NFT’s sales as LIQUIDITY on DEX."
+                        "Stake your NFT and Tokens to earn SuperCharged rewards."
                     }
                 />{" "}
                 <Feature
                     icon={<Icon as={SiProgress} w={10} h={10} />}
-                    title={" 3D AZEROPALADIN "}
+                    title={"  CoinFlip "}
                     text={
-                        "Launch of 3D AZEROPALADIN which will be airdropped to original AZEROPALADIN NFT holders."
+                        "Throw a coin, your luck, your money!! (Platform fees of 3.5% will be taken from a winning CoinFlip)."
                     }
                 />{" "}
                 <Feature
                     icon={<Icon as={SiProgress} w={10} h={10} />}
-                    title={"  AZEROPALADIN Market"}
-                    text={
-                        "Platform where user can sell and purchase 3D PALADINS, assets, and accessories."
-                    }
+                    title={" AZEROPALADIN DAO"}
+                    text={"Creation of the community AZEROPALADIN DAO."}
                 />{" "}
                 <Feature
                     icon={<Icon as={SiProgress} w={10} h={10} />}
-                    title={" AZEROPALADIN World Lottery"}
-                    text={
-                        "Opening of our first AZEROPALADIN World metaverse Lottery."
-                    }
-                />{" "}
+                    title={"AZEROPALADIN Web 3.0 Lottery "}
+                    text={"Opening of our first AZEROPALADIN Web 3.0 Lottery."}
+                />
             </SimpleGrid>
         </ScreenSize>
     );
